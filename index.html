@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="src/css/global.css"/>
+    <link rel="stylesheet" href="src/css/style.css"/>
+
+    <title>Countdown Timer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="countdown">
+        <header>
+          <h1>READY TO LAUNCH IN...</h1>
+        </header>
+
+        <div class="countdown-timer">
+          <div class="countdown-timer-item">
+            <p class="countdown-timer-item-text">Days</p>
+            <p class="countdown-timer-item-number" id="days">00</p>
+          </div>
+        </div>
+
+        <div class="countdown-timer">
+          <div class="countdown-timer-item">
+            <p class="countdown-timer-item-text">Hours</p>
+            <p class="countdown-timer-item-number" id="hours">00</p>
+          </div>
+        </div>
+
+        <div class="countdown-timer">
+          <div class="countdown-timer-item">
+            <p class="countdown-timer-item-text">Minutes</p>
+            <p class="countdown-timer-item-number" id="minutes">00</p>
+          </div>
+        </div>
+        
+        <div class="countdown-timer">
+          <div class="countdown-timer-item">
+            <p class="countdown-timer-item-text">Seconds</p>
+            <p class="countdown-timer-item-number" id="seconds">00</p>
+          </div>
+        </div>
+
+        <footer>
+          <span>Inscreva-se para saber mais sobre o lançamento</span>
+          <button>Inscreva-se</button>
+        </footer>
+
+        <div class="display-images rocket">
+          <img src="src/images/rocket.svg" alt="Rocket" />
+        </div>
+
+      </div>
+    </div>
+
+    <script src="src/js/index.js" type="text/Javascript"></script>
+  </body>
+</html>
