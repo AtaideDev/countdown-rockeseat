@@ -5,13 +5,15 @@ const secondsText = document.querySelector("#seconds");
 
 const launch = new Date("1 Jan 2023");
 
-setInterval(() => {
+setInterval(countdown, 1000);
+
+function countdown() {
   const { days, hours, minutes, seconds } = precessCountdownValue()
   renderCountdown({ days, hours, minutes, seconds });
-}, 1000);
+}
 
 function addPadStart(value) {
-  return value < 10 ? 0${value} : value;
+  return value < 10 ? `0${value}` : value;
 }
 
 function precessCountdownValue() {
