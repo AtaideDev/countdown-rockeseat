@@ -13,6 +13,7 @@ body {
 
 .container {
   width: 80%;
+  transform: scale(0.9);
 
   display: flex;
   justify-content: space-between;
@@ -136,9 +137,6 @@ body {
   .container{
     flex-direction: column;
     gap: 4rem;
-    }
-    .countdown header h1{
-    
     }
     .container .countdown-timer-item .countdown-timer-item-number{
     font-size: 3.5rem;
